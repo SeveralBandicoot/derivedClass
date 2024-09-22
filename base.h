@@ -9,7 +9,7 @@
 using namespace std;
 
 class base {
-    private:
+    private:  
         string name;
         int age;
         string gender;
@@ -17,7 +17,6 @@ class base {
         double height;
 
     public:
-        // Constructor
         Base(string N, int Age, string Gender, double W, double H) {
             name = N;
             age = Age;
